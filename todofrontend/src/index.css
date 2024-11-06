@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: #0c0c1c; /* Dark background for the application */
+  color: white; /* White text color for better readability */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.todo-list-container {
+  max-height: 60vh; /* Set maximum height for the todo list */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+

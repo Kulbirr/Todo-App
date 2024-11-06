@@ -1,0 +1,22 @@
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore node_modules in frontend
+frontend/node_modules/
+
+# Ignore Maven or Gradle build directories in backend
+backend/target/
+backend/.gradle/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+
+# Backend
+backend/target/
+backend/.env

@@ -1,0 +1,75 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F9FC; /* Light Gray background */
+}
+
+/* Home Page Container */
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    padding: 20px;
+}
+
+/* Home Content */
+.home-content {
+    text-align: center;
+    background-color: white; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px;
+    width: 100%;
+    max-width: 400px; /* Restrict max width to avoid too wide */
+}
+
+/* Welcome Message */
+.welcome-message h1 {
+    color: black; /* Primary Color */
+    /* Responsive font size */
+    margin-bottom: 15px;
+}
+
+.welcome-message p {
+    color: #333; /* Dark Gray Text */
+    font-size: 1.2em; /* Responsive font size */
+    margin-bottom: 20px;
+}
+
+/* Call To Action Button */
+.cta-button {
+    background-color: #D0021B; /* Button Color */
+    color: white; /* White text on button */
+    border: none;
+    border-radius: 5px; /* Rounded button corners */
+    padding: 12px 20px; /* Button padding */
+    font-size: 1em; /* Responsive font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.cta-button:hover {
+    background-color: #A4000F; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .home-content {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    .welcome-message h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+
+    .welcome-message p {
+        font-size: 1em; /* Smaller font size for smaller screens */
+    }
+
+    .cta-button {
+        padding: 10px 15px; /* Less padding for smaller screens */
+    }
+}
